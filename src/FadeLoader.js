@@ -80,7 +80,7 @@ var Loader = React.createClass({
      * @return {Object}
      */
     getPosStyle: function(i) {
-        var radius = '20';
+        var radius = 20;
         var quarter = (radius / 2) + (radius / 5.5);
 
         var lines = {
